@@ -1,0 +1,88 @@
+]/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       width: 960px;
+       height: 100%;
+    }
+
+    header {
+        background-color: #6DB254 ;
+        border-style: none;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 22;
+        text-align:center;
+    }
+    nav {
+        float: left;
+        width: 100%;
+    }
+    nav ul {
+        display: inline-flex;
+        float: left;
+        margin: none;
+        padding: none;
+        border-style: block;
+        border-radius: 10px;
+        list-style-type: none;
+        background-color:none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 5px 15px 15px 5px;
+        vertical-align: middle;
+        text-align:center;
+    }
+    li a:link{
+        background-color:;
+        color: #000033;
+}
+
+    li a:active {
+        color:;
+        background-color:#000000;
+}
+
+    li a:hover{
+        position: relative;
+        color:;
+        background-color:#AFFF91;
+}
+    li a:active{
+        background-color:#B242A6;
+        text-decoration:none;
+}
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color: #B242A6;
+        padding:;
+        min-height: 100%;
+      }
+      h2 {
+        color: #B242A6;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 960px;
+        background-color:#aaaaaa;
+        color:;
+        clear: both;
+        display: block;
+    }
